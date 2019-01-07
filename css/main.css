@@ -1330,7 +1330,7 @@ pre .javascript .function {
 .posts-expand .post-body img {
   box-sizing: border-box;
   margin: auto;
-  padding: 3px;
+  padding: 0px;
   border: none;
 }
 .posts-expand .post-body .fancybox img {
@@ -1890,7 +1890,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #30ffcb;
+  background: #fff15d;
 }
 .links-of-blogroll {
   font-size: 13px;
