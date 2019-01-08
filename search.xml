@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[莫比乌斯学习笔记]]></title>
     <url>%2Fpost%2Fa415f82c.html</url>
-    <content type="text"><![CDATA[莫比乌斯 狄利克雷卷积 莫比乌斯函数 后记]]></content>
+    <content type="text"><![CDATA[莫比乌斯 狄利克雷卷积 形式 F(n)=∑i∣nf(i)g(ni)F(n)=\sum_{i|n}f(i)g(\frac{n}{i}) F(n)=i∣n∑​f(i)g(in​) 写作F=f∗gF=f*gF=f∗g 性质 ϵ(n)={0n=0bn≠0\epsilon(n)=\begin{cases}0 &amp; n = 0\\b &amp; n \neq 0\end{cases}ϵ(n)={0b​n=0n≠0​且单位元有：ϵ∗f=f\epsilon*f=fϵ∗f=f 莫比乌斯函数 莫比乌斯反演定理 形式一 F(n)=∑d∣nf(d)⇒F(n)=∑d∣nμ(d)F(nd)F(n)=\sum_{d|n}f(d) \Rightarrow F(n)=\sum_{d|n}\mu(d)F(\frac{n}{d}) F(n)=d∣n∑​f(d)⇒F(n)=d∣n∑​μ(d)F(dn​) 形式二 F(n)=∑n∣df(d)⇒F(n)=∑n∣dμ(d)F(nd)F(n)=\sum_{n|d}f(d) \Rightarrow F(n)=\sum_{n|d}\mu(d)F(\frac{n}{d}) F(n)=n∣d∑​f(d)⇒F(n)=n∣d∑​μ(d)F(dn​) 后记]]></content>
       <categories>
         <category>学习笔记</category>
       </categories>
