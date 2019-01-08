@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[「BZOJ2301」[HAOI2011]Problem b]]></title>
+    <url>%2Fpost%2F2c9e796c.html</url>
+    <content type="text"><![CDATA[Description 对于给出的nnn个询问，每次求有多少个数对(x,y)(x,y)(x,y)，满足a≤x≤ba\leq x\leq ba≤x≤b，c≤y≤dc\leq y\leq dc≤y≤d，且gcd(x,y)=kgcd(x,y)=kgcd(x,y)=k，gcd(x,y)gcd(x,y)gcd(x,y)函数为xxx和yyy的最大公约数。 Input 第一行一个整数n，接下来n行每行五个整数，分别表示a、bbb、ccc、ddd、kkk Output 共nnn行，每行一个整数表示满足要求的数对(x,y)(x,y)(x,y)的个数 Solution f(i)f(i)f(i)表示x∈[1,n]x\in[1,n]x∈[1,n]，y∈[1,m]y\in[1,m]y∈[1,m]且gcd(x,y)=igcd(x,y)=igcd(x,y)=i的数对(x,y)(x,y)(x,y)数量 F(i)F(i)F(i)表示x∈[1,n]x\in[1,n]x∈[1,n]，y∈[1,m]y\in[1,m]y∈[1,m]且i∣gcd(x,y)i|gcd(x,y)i∣gcd(x,y)的数对(x,y(x,y(x,y数量 F(i)=∑i∣df(d)=⌊ni⌋⌊mi⌋F(i)=\sum_{i|d}f(d)=\lfloor\frac{n}{i}\rfloor\lfloor\frac{m}{i}\rfloor F(i)=i∣d∑​f(d)=⌊in​⌋⌊im​⌋ 反演FFF函数得到： f(i)=∑i∣dμ(di)F(i)=∑i∣dμ(di)⋅⌊nd⌋⌊md⌋f(i)=\sum_{i|d}\mu(\frac{d}{i})F(i)=\sum_{i|d}\mu(\frac{d}{i})\cdot \lfloor\frac{n}{d}\rfloor\lfloor\frac{m}{d}\rfloor f(i)=i∣d∑​μ(id​)F(i)=i∣d∑​μ(id​)⋅⌊dn​⌋⌊dm​⌋]]></content>
+      <categories>
+        <category>数学</category>
+      </categories>
+      <tags>
+        <tag>莫比乌斯</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[莫比乌斯学习笔记]]></title>
     <url>%2Fpost%2Fa415f82c.html</url>
     <content type="text"><![CDATA[莫比乌斯 狄利克雷卷积 形式 F(n)=∑i∣nf(i)g(ni)F(n)=\sum_{i|n}f(i)g(\frac{n}{i}) F(n)=i∣n∑​f(i)g(in​) 写作F=f∗gF=f*gF=f∗g 性质 ϵ(n)={0n=0bn≠0\epsilon(n)=\begin{cases}0 &amp; n = 0\\b &amp; n \neq 0\end{cases}ϵ(n)={0b​n=0n≠0​且单位元有：ϵ∗f=f\epsilon*f=fϵ∗f=f 莫比乌斯函数 莫比乌斯反演定理 形式一 F(n)=∑d∣nf(d)⇒F(n)=∑d∣nμ(d)F(nd)F(n)=\sum_{d|n}f(d) \Rightarrow F(n)=\sum_{d|n}\mu(d)F(\frac{n}{d}) F(n)=d∣n∑​f(d)⇒F(n)=d∣n∑​μ(d)F(dn​) 形式二 F(n)=∑n∣df(d)⇒F(n)=∑n∣dμ(d)F(nd)F(n)=\sum_{n|d}f(d) \Rightarrow F(n)=\sum_{n|d}\mu(d)F(\frac{n}{d}) F(n)=n∣d∑​f(d)⇒F(n)=n∣d∑​μ(d)F(dn​) 后记]]></content>
