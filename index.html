@@ -328,6 +328,190 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://blog.luojinyao.top/post/e981225f.html">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="luojinyao">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="八面の风">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/post/e981225f.html" itemprop="url">「hdu2966」In case of failure</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-02-20T15:55:15+08:00">
+                2019-02-20
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/模板/" itemprop="url" rel="index">
+                    <span itemprop="name">模板</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/post/e981225f.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/post/e981225f.html" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/post/e981225f.html" class="leancloud_visitors" data-flag-title="「hdu2966」In case of failure">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <a id="more"></a>
+<h2 id="problem-description"><a class="markdownIt-Anchor" href="#problem-description"></a> Problem Description</h2>
+<p>To help their clients deal with faulty Cash Machines, the board of The Planar Bank has decided to stick a label expressing sincere regret and sorrow of the bank about the failure on every ATM. The very same label would gently ask the customer to calmly head to the nearest Machine (that should hopefully<br>
+work fine).<br>
+In order to do so, a list of two-dimensional locations of all n ATMs has been prepared, and your task is to find for each of them the one closest with respect to the Euclidean distance.</p>
+<h2 id="input"><a class="markdownIt-Anchor" href="#input"></a> Input</h2>
+<p>The input contains several test cases. The very first line contains the number of cases <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>t</mi><mo>(</mo><mi>t</mi><mo>≤</mo><mn>1</mn><mn>5</mn><mo>)</mo></mrow><annotation encoding="application/x-tex">t (t \leq 15)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.75em;"></span><span class="strut bottom" style="height:1em;vertical-align:-0.25em;"></span><span class="base"><span class="mord mathit">t</span><span class="mopen">(</span><span class="mord mathit">t</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mrel">≤</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mord">1</span><span class="mord">5</span><span class="mclose">)</span></span></span></span> that follow. Each test cases begin with the number of Cash Machines <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>n</mi><mo>(</mo><mn>2</mn><mo>≤</mo><mi>n</mi><mo>≤</mo><mn>1</mn><msup><mn>0</mn><mn>5</mn></msup><mo>)</mo></mrow><annotation encoding="application/x-tex">n (2 \leq n \leq 10^5)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.8141079999999999em;"></span><span class="strut bottom" style="height:1.064108em;vertical-align:-0.25em;"></span><span class="base"><span class="mord mathit">n</span><span class="mopen">(</span><span class="mord">2</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mrel">≤</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mord mathit">n</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mrel">≤</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">5</span></span></span></span></span></span></span></span><span class="mclose">)</span></span></span></span>. Each of the next n lines contain the coordinates of one Cash Machine <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>x</mi><mo separator="true">,</mo><mi>y</mi><mo>(</mo><mn>0</mn><mo>≤</mo><mi>x</mi><mo separator="true">,</mo><mi>y</mi><mo>≤</mo><mn>1</mn><msup><mn>0</mn><mn>9</mn></msup><mo>)</mo></mrow><annotation encoding="application/x-tex">x,y (0 \leq x,y \leq 10^9)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.8141079999999999em;"></span><span class="strut bottom" style="height:1.064108em;vertical-align:-0.25em;"></span><span class="base"><span class="mord mathit">x</span><span class="mpunct">,</span><span class="mord rule" style="margin-right:0.16666666666666666em;"></span><span class="mord mathit" style="margin-right:0.03588em;">y</span><span class="mopen">(</span><span class="mord">0</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mrel">≤</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mord mathit">x</span><span class="mpunct">,</span><span class="mord rule" style="margin-right:0.16666666666666666em;"></span><span class="mord mathit" style="margin-right:0.03588em;">y</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mrel">≤</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">9</span></span></span></span></span></span></span></span><span class="mclose">)</span></span></span></span> separated by a space.<br>
+No two points in one test case will coincide.</p>
+<h2 id="output"><a class="markdownIt-Anchor" href="#output"></a> Output</h2>
+<p>For each test case output <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>n</mi></mrow><annotation encoding="application/x-tex">n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.43056em;"></span><span class="strut bottom" style="height:0.43056em;vertical-align:0em;"></span><span class="base"><span class="mord mathit">n</span></span></span></span> lines. <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>i</mi></mrow><annotation encoding="application/x-tex">i</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.65952em;"></span><span class="strut bottom" style="height:0.65952em;vertical-align:0em;"></span><span class="base"><span class="mord mathit">i</span></span></span></span>-th of them should contain the squared distance between the <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>i</mi></mrow><annotation encoding="application/x-tex">i</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.65952em;"></span><span class="strut bottom" style="height:0.65952em;vertical-align:0em;"></span><span class="base"><span class="mord mathit">i</span></span></span></span>-th ATM from the input and its nearest neighbour.</p>
+<h2 id="sample-input"><a class="markdownIt-Anchor" href="#sample-input"></a> Sample Input</h2>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line">2</span><br><span class="line">10</span><br><span class="line">17 41</span><br><span class="line">0 34</span><br><span class="line">24 19</span><br><span class="line">8 28</span><br><span class="line">14 12</span><br><span class="line">45 5</span><br><span class="line">27 31</span><br><span class="line">41 11</span><br><span class="line">42 45</span><br><span class="line">36 27</span><br><span class="line">15</span><br><span class="line">0 0</span><br><span class="line">1 2</span><br><span class="line">2 3</span><br><span class="line">3 2</span><br><span class="line">4 0</span><br><span class="line">8 4</span><br><span class="line">7 4</span><br><span class="line">6 3</span><br><span class="line">6 1</span><br><span class="line">8 0</span><br><span class="line">11 0</span><br><span class="line">12 2</span><br><span class="line">13 1</span><br><span class="line">14 2</span><br><span class="line">15 0</span><br></pre></td></tr></table></figure>
+<h2 id="sample-output"><a class="markdownIt-Anchor" href="#sample-output"></a> Sample Output</h2>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">200</span><br><span class="line">100</span><br><span class="line">149</span><br><span class="line">100</span><br><span class="line">149</span><br><span class="line">52</span><br><span class="line">97</span><br><span class="line">52</span><br><span class="line">360</span><br><span class="line">97</span><br><span class="line">5</span><br><span class="line">2</span><br><span class="line">2</span><br><span class="line">2</span><br><span class="line">5</span><br><span class="line">1</span><br><span class="line">1</span><br><span class="line">2</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">5</span><br><span class="line">2</span><br><span class="line">2</span><br><span class="line">2</span><br><span class="line">5</span><br></pre></td></tr></table></figure>
+<h2 id="source"><a class="markdownIt-Anchor" href="#source"></a> Source</h2>
+<p>Central European Programming Contest 2008</p>
+<h2 id="solution"><a class="markdownIt-Anchor" href="#solution"></a> Solution</h2>
+<p>题意就是要对输入的每一个点输出距离他最近的点的距离的最小值的平方。距离指欧几里得距离。<br>
+KdTree的模板题<br>
+查询的时候是查询到左右儿子矩阵的最近点的距离，不是四个角的距离。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;algorithm&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;cstring&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;map&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;bitset&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;cmath&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> mk make_pair</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> fi first</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> nd second</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> pii pair<span class="meta-string">&lt;int,int&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> pb push_back</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> sqr(x) ((x)*(x))</span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">typedef</span> <span class="keyword">long</span> <span class="keyword">long</span> ll;</span><br><span class="line"><span class="function"><span class="keyword">inline</span> ll <span class="title">read</span><span class="params">()</span> </span>&#123;ll x = <span class="number">0</span>; <span class="keyword">char</span> ch = getchar(), w = <span class="number">1</span>;<span class="keyword">while</span>(ch &lt; <span class="string">'0'</span> || ch &gt; <span class="string">'9'</span>) &#123;<span class="keyword">if</span>(ch == <span class="string">'-'</span>) w = <span class="number">-1</span>;</span><br><span class="line">ch = getchar();&#125;<span class="keyword">while</span>(ch &gt;= <span class="string">'0'</span> &amp;&amp; ch &lt;= <span class="string">'9'</span>) &#123;x = x * <span class="number">10</span> + ch - <span class="string">'0'</span>;ch = getchar();&#125;<span class="keyword">return</span> x * w;&#125;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">write</span><span class="params">(ll x)</span> </span>&#123;<span class="keyword">if</span>(x &lt; <span class="number">0</span>) <span class="built_in">putchar</span>(<span class="string">'-'</span>), x = -x;<span class="keyword">if</span>(x &gt; <span class="number">9</span>) write(x / <span class="number">10</span>);<span class="built_in">putchar</span>(x % <span class="number">10</span> + <span class="string">'0'</span>);&#125;</span><br><span class="line"><span class="function"><span class="keyword">inline</span> <span class="keyword">void</span> <span class="title">writeln</span><span class="params">(ll x)</span> </span>&#123;write(x);<span class="built_in">puts</span>(<span class="string">""</span>);&#125;</span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> N = <span class="number">1e5</span> + <span class="number">6</span>;</span><br><span class="line"><span class="keyword">int</span> n;</span><br><span class="line"><span class="keyword">int</span> rt;</span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Point</span> &#123;</span></span><br><span class="line">	<span class="keyword">int</span> x, y;</span><br><span class="line">&#125;a[N],b[N];</span><br><span class="line"><span class="function"><span class="keyword">bool</span> <span class="title">cmpx</span><span class="params">(<span class="keyword">const</span> Point &amp;x, <span class="keyword">const</span> Point &amp;y)</span> </span>&#123;</span><br><span class="line">	<span class="keyword">return</span> x.x &lt; y.x;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">bool</span> <span class="title">cmpy</span><span class="params">(<span class="keyword">const</span> Point &amp;x, <span class="keyword">const</span> Point &amp;y)</span> </span>&#123;</span><br><span class="line">	<span class="keyword">return</span> x.y &lt; y.y;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">int</span> num;</span><br><span class="line"><span class="keyword">const</span> ll inf = <span class="number">1e9</span> + <span class="number">7</span>;</span><br><span class="line"><span class="keyword">int</span> ch[N][<span class="number">2</span>];</span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">KD</span> &#123;</span></span><br><span class="line">	Point p;</span><br><span class="line">	ll x[<span class="number">2</span>], y[<span class="number">2</span>];</span><br><span class="line">&#125;t[N];</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">build</span><span class="params">(<span class="keyword">int</span> &amp;o, <span class="keyword">int</span> l, <span class="keyword">int</span> r, <span class="keyword">int</span> v)</span> </span>&#123;</span><br><span class="line">	<span class="keyword">if</span>(l &gt; r) <span class="keyword">return</span>;</span><br><span class="line">	o = ++num;</span><br><span class="line">	<span class="keyword">int</span> lt, rt, up,dn;</span><br><span class="line">	lt = dn = inf;</span><br><span class="line">	rt = up = -inf;</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i = l; i &lt;= r; ++i) &#123;</span><br><span class="line">		lt = min(lt, a[i].x);</span><br><span class="line">		rt = max(rt, a[i].x);</span><br><span class="line">		up = max(up, a[i].y);</span><br><span class="line">		dn = min(dn, a[i].y);</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">int</span> mid = (l + r) &gt;&gt; <span class="number">1</span>;</span><br><span class="line">	<span class="keyword">if</span>(v) nth_element(a + l, a + mid, a + <span class="number">1</span> + r, cmpy);</span><br><span class="line">	<span class="keyword">else</span> nth_element(a + l, a + mid, a + <span class="number">1</span> + r, cmpx); </span><br><span class="line">	t[o].p = a[mid];</span><br><span class="line">	t[o].x[<span class="number">0</span>] = lt, t[o].x[<span class="number">1</span>] = rt;</span><br><span class="line">	t[o].y[<span class="number">0</span>] = dn, t[o].y[<span class="number">1</span>] = up;</span><br><span class="line">	<span class="keyword">if</span>(l &lt; mid) build(ch[o][<span class="number">0</span>], l, mid<span class="number">-1</span>, v ^ <span class="number">1</span>);</span><br><span class="line">	<span class="keyword">if</span>(r &gt; mid) build(ch[o][<span class="number">1</span>], mid + <span class="number">1</span>, r, v ^ <span class="number">1</span>);</span><br><span class="line">&#125;</span><br><span class="line">ll ans;</span><br><span class="line"><span class="function">ll <span class="title">cal</span><span class="params">(ll x1, ll y1, ll x2, ll y2)</span> </span>&#123;</span><br><span class="line">	<span class="keyword">return</span> sqr(x1 - x2) + sqr(y1 - y2);</span><br><span class="line">&#125;</span><br><span class="line"><span class="function">ll <span class="title">getdi</span><span class="params">(Point &amp;x, <span class="keyword">int</span> y)</span> </span>&#123;</span><br><span class="line">	ll res = <span class="number">0</span>;</span><br><span class="line">	<span class="keyword">if</span>(t[y].x[<span class="number">0</span>] &gt; x.x) res += sqr(x.x - t[y].x[<span class="number">0</span>]);</span><br><span class="line">	<span class="keyword">if</span>(t[y].x[<span class="number">1</span>] &lt; x.x) res += sqr(x.x - t[y].x[<span class="number">1</span>]);</span><br><span class="line">	<span class="keyword">if</span>(t[y].y[<span class="number">0</span>] &gt; x.y) res += sqr(x.y - t[y].y[<span class="number">0</span>]);</span><br><span class="line">	<span class="keyword">if</span>(t[y].y[<span class="number">1</span>] &lt; x.y) res += sqr(x.y - t[y].y[<span class="number">1</span>]);</span><br><span class="line">	<span class="keyword">return</span> res;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">query</span><span class="params">(<span class="keyword">int</span> o, Point &amp;x)</span> </span>&#123;</span><br><span class="line">	<span class="keyword">if</span>(!o) <span class="keyword">return</span>;</span><br><span class="line">	ll tmp = cal(x.x, x.y, t[o].p.x, t[o].p.y);</span><br><span class="line">	<span class="keyword">if</span>(tmp &gt; <span class="number">0</span> &amp;&amp; tmp &lt; ans)</span><br><span class="line">		ans = tmp;</span><br><span class="line">	<span class="keyword">if</span>(!ch[o][<span class="number">0</span>] &amp;&amp; !ch[o][<span class="number">1</span>]) <span class="keyword">return</span>;</span><br><span class="line">	ll dl = <span class="number">1e18</span> + <span class="number">7</span>, dr = <span class="number">1e18</span> + <span class="number">7</span>;</span><br><span class="line">	<span class="keyword">if</span>(ch[o][<span class="number">0</span>]) dl = getdi(x, ch[o][<span class="number">0</span>]);</span><br><span class="line">	<span class="keyword">if</span>(ch[o][<span class="number">1</span>]) dr = getdi(x, ch[o][<span class="number">1</span>]);</span><br><span class="line">	<span class="keyword">if</span>(dl &lt; dr) &#123; <span class="comment">//小优化</span></span><br><span class="line">		<span class="keyword">if</span>(dl &lt; ans) query(ch[o][<span class="number">0</span>], x);</span><br><span class="line">		<span class="keyword">if</span>(dr &lt; ans) query(ch[o][<span class="number">1</span>], x);</span><br><span class="line">	&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">		<span class="keyword">if</span>(dr &lt; ans) query(ch[o][<span class="number">1</span>], x);</span><br><span class="line">		<span class="keyword">if</span>(dl &lt; ans) query(ch[o][<span class="number">0</span>], x);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">	<span class="keyword">int</span> T = read();</span><br><span class="line">	<span class="keyword">while</span>(T--) &#123;</span><br><span class="line">		n = read();	</span><br><span class="line">		num = <span class="number">0</span>;</span><br><span class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">1</span>; i &lt;= n; ++i)</span><br><span class="line">			a[i].x = read(), a[i].y = read(), b[i] = a[i];</span><br><span class="line">		build(rt, <span class="number">1</span>, n, <span class="number">0</span>);</span><br><span class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">1</span>; i &lt;= n; ++i) &#123;</span><br><span class="line">			ans = <span class="number">1e18</span>+<span class="number">7</span>;</span><br><span class="line">			query(<span class="number">1</span>, b[i]);</span><br><span class="line">			writeln(ans);</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+          
+        
+      
+    </div>
+    
+    
+    
+<div>
+      
+</div>
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="https://blog.luojinyao.top/post/ff5150c5.html">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
@@ -1868,176 +2052,6 @@
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://blog.luojinyao.top/post/79b569af.html">
-
-    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="luojinyao">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="八面の风">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/post/79b569af.html" itemprop="url">「BZOJ2820」YY的GCD</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-01-10T07:08:36+08:00">
-                2019-01-10
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
-                  <a href="/categories/数学/" itemprop="url" rel="index">
-                    <span itemprop="name">数学</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/post/79b569af.html#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/post/79b569af.html" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-          
-             <span id="/post/79b569af.html" class="leancloud_visitors" data-flag-title="「BZOJ2820」YY的GCD">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               
-                 <span class="post-meta-item-text">阅读次数&#58;</span>
-               
-                 <span class="leancloud-visitors-count"></span>
-             </span>
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <h2 id="description"><a class="markdownIt-Anchor" href="#description"></a> Description</h2>
-<p>给定<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>N</mi></mrow><annotation encoding="application/x-tex">N</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.68333em;"></span><span class="strut bottom" style="height:0.68333em;vertical-align:0em;"></span><span class="base"><span class="mord mathit" style="margin-right:0.10903em;">N</span></span></span></span>, <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>M</mi></mrow><annotation encoding="application/x-tex">M</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.68333em;"></span><span class="strut bottom" style="height:0.68333em;vertical-align:0em;"></span><span class="base"><span class="mord mathit" style="margin-right:0.10903em;">M</span></span></span></span>,求<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1</mn><mo>≤</mo><mi>x</mi><mo>≤</mo><mi>N</mi></mrow><annotation encoding="application/x-tex">1\leq x\leq N</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.68333em;"></span><span class="strut bottom" style="height:0.8193em;vertical-align:-0.13597em;"></span><span class="base"><span class="mord">1</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mrel">≤</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mord mathit">x</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mrel">≤</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mord mathit" style="margin-right:0.10903em;">N</span></span></span></span>, <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1</mn><mo>≤</mo><mi>y</mi><mo>≤</mo><mi>M</mi></mrow><annotation encoding="application/x-tex">1\leq y\leq M</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.68333em;"></span><span class="strut bottom" style="height:0.8777699999999999em;vertical-align:-0.19444em;"></span><span class="base"><span class="mord">1</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mrel">≤</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mord mathit" style="margin-right:0.03588em;">y</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mrel">≤</span><span class="mord rule" style="margin-right:0.2777777777777778em;"></span><span class="mord mathit" style="margin-right:0.10903em;">M</span></span></span></span>且<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>g</mi><mi>c</mi><mi>d</mi><mo>(</mo><mi>x</mi><mo separator="true">,</mo><mi>y</mi><mo>)</mo></mrow><annotation encoding="application/x-tex">gcd(x, y)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.75em;"></span><span class="strut bottom" style="height:1em;vertical-align:-0.25em;"></span><span class="base"><span class="mord mathit" style="margin-right:0.03588em;">g</span><span class="mord mathit">c</span><span class="mord mathit">d</span><span class="mopen">(</span><span class="mord mathit">x</span><span class="mpunct">,</span><span class="mord rule" style="margin-right:0.16666666666666666em;"></span><span class="mord mathit" style="margin-right:0.03588em;">y</span><span class="mclose">)</span></span></span></span>为质数的<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>(</mo><mi>x</mi><mo separator="true">,</mo><mi>y</mi><mo>)</mo></mrow><annotation encoding="application/x-tex">(x, y)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.75em;"></span><span class="strut bottom" style="height:1em;vertical-align:-0.25em;"></span><span class="base"><span class="mopen">(</span><span class="mord mathit">x</span><span class="mpunct">,</span><span class="mord rule" style="margin-right:0.16666666666666666em;"></span><span class="mord mathit" style="margin-right:0.03588em;">y</span><span class="mclose">)</span></span></span></span>有多少对。</p>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/post/79b569af.html#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-    
-    
-    
-<div>
-      
-</div>
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
   </section>
 
   
@@ -2090,7 +2104,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">12</span>
+                  <span class="site-state-item-count">13</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -2112,7 +2126,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">16</span>
+                  <span class="site-state-item-count">17</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
