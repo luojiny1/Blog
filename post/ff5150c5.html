@@ -110,7 +110,7 @@
 <meta property="og:site_name" content="八面の风">
 <meta property="og:description" content="Description 在一个222维平面上有两条传送带，每一条传送带可以看成是一条线段。两条传送带分别为线段ABABAB和线段CDCDCD。lxhgww在ABABAB上的移动速度为PPP，在CDCDCD上的移动速度为QQQ，在平面上的移动速度RRR。现在lxhgww想从AAA点走到DDD点，他想知道最少需要走多长时间">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-02-20T04:11:11.618Z">
+<meta property="og:updated_time" content="2019-02-20T04:12:08.492Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="「BZOJ1857」[Scoi2010]传送带">
 <meta name="twitter:description" content="Description 在一个222维平面上有两条传送带，每一条传送带可以看成是一条线段。两条传送带分别为线段ABABAB和线段CDCDCD。lxhgww在ABABAB上的移动速度为PPP，在CDCDCD上的移动速度为QQQ，在平面上的移动速度RRR。现在lxhgww想从AAA点走到DDD点，他想知道最少需要走多长时间">
@@ -399,7 +399,7 @@
                   <i class="fa fa-comment-o"></i>
                 </span>
                 <a href="/post/ff5150c5.html#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="post/ff5150c5.html" itemprop="commentCount"></span>
+                  <span class="post-comments-count valine-comment-count" data-xid="/post/ff5150c5.html" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -563,14 +563,7 @@
 
   
     <div class="comments" id="comments">
-      <div id="disqus_thread">
-        <noscript>
-          Please enable JavaScript to view the
-          <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
-        </noscript>
-      </div>
     </div>
-
   
 
 
@@ -901,26 +894,6 @@
 
   
 
-    
-      <script id="dsq-count-scr" src="https://ba-mian-nofeng.disqus.com/count.js" async></script>
-    
-
-    
-      <script type="text/javascript">
-        var disqus_config = function () {
-          this.page.url = 'https://blog.luojinyao.top/post/ff5150c5.html';
-          this.page.identifier = 'post/ff5150c5.html';
-          this.page.title = '「BZOJ1857」[Scoi2010]传送带';
-        };
-        var d = document, s = d.createElement('script');
-        s.src = 'https://ba-mian-nofeng.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', '' + +new Date());
-        (d.head || d.body).appendChild(s);
-      </script>
-    
-
-  
-
 
 
 
@@ -936,12 +909,38 @@
 
 
 
+  
 
 
 
 
 
 
+
+
+
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: true,
+        notify: true,
+        appId: '0nox32NJk0SH0bjQBUVg0y7Y-gzGzoHsz',
+        appKey: '2F8zgcaRWFoohfFEFQ4va9ED',
+        placeholder: 'Good',
+        avatar:'identicon',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
 
 
 
